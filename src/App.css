@@ -53,6 +53,10 @@ a:not([href]):not([tabindex]){
 .App-link {
   color: #61dafb;
 }
+.col1 .cards-sample{
+  margin-bottom: 1rem;
+  
+}
 .hide-icon1{
   display: none;
 }
@@ -103,17 +107,28 @@ a:not([href]):not([tabindex]){
 .cont{
   flex: 1;
 }
+@media screen and (max-width: 1200px) {
+  .col1{
+    height: 66%;
+  }
+  .down{
+    height: 33%;
+  }
+}
 .copyright{
   background-color: #fe6601;
   color: white;
   height: 5vh;
   opacity: 0.7;
 }
+.cards-sample img{
+  width: 100%;
+}
 .cards-sample{
   display: inline-block;
 
-  height: 22vw;
-  width: 44vh;
+  height: 18rem;
+  width: 16rem;
   padding: 10px 10px;
   background-color: #f5f5f5;
   margin-left: 3vw;
@@ -149,11 +164,20 @@ a:not([href]):not([tabindex]){
 .para:hover{
   color: white;
 }
+.col1{
+  height: 50%;
+}
+
+.down{
+  height: 50%;
+  margin-top: -2rem;
+}
+
 .row1{
   padding: 10vh;
   box-shadow: 3px 3px 3px grey;
   margin-bottom: 10vh;
-  height: 130vh;
+  height: 47rem;
   background-color: #fe6601;
 }
 .side #flist{
@@ -219,7 +243,7 @@ a:not([href]):not([tabindex]){
   
 }
 .main2{
-  height: 150vh;
+  height: 55rem;
   margin-top: 10vh;
   margin-bottom: 10vh;
   background-color: #f5f5f5;
